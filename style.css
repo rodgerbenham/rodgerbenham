@@ -1,0 +1,46 @@
+.subheading {
+	font-size: 12pt;
+	margin-bottom: 5px;
+}
+
+.flex-grid {
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .flex-grid {
+        display: flex;
+    }
+}
+
+.header {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer {
+	text-align: center;
+	font-style: italic;
+}
+
+.img {
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+}
+
+.year {
+    font-weight: bold;
+}
+
+li {
+  margin: 10px 0;
+}
