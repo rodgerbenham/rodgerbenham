@@ -1,83 +1,32 @@
-@font-face {
-    font-family: 'Crimson';
-    src: url('fonts/Crimson_Text/CrimsonText-Regular.ttf');  
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
-@font-face {
-    font-family: 'IBM-Plex-MonoSemiBold';
-    src: url('fonts/IBM_Plex_Serif/IBMPlexSerif-SemiBold.ttf');  
+.container {
+  max-width: 960px;
 }
 
-body {
-    background-color: white; 
-    color:black;
-    font-family: 'Crimson', serif;
-    font-size: 16pt;
-    padding: 20px;
-} 
-
-
-.header {
+.main-header {
+  max-width: 700px;
 }
 
-h1 {
-    color: #434DB5;
-    text-align: left;
-    font-family: 'IBM-Plex-MonoSemiBold', serif;
-    font-size: 48pt;
-    margin-bottom: 0px;
+.card-deck .card {
+  min-width: 220px;
 }
 
-h3 {
-    color: #434DB5;
-    text-align: left;
-    font-family: 'IBM-Plex-MonoSemiBold', serif;
-    margin-bottom: 10px;
-    /*font-size: 18pt;*/
-    /*margin-bottom: 0px;*/
+.paper-container {
+  /*border: 1px dashed black;*/
+  padding-bottom: 20px;
 }
 
-
-.subheading {
-    font-size: 18pt;
-    line-height: 26pt;
+.paper-title {
+  margin-bottom: 0;
 }
-
-.flex-grid {
-    display: block;
-}
-
-@media (min-width: 1024px) {
-    .flex-grid {
-        display: flex;
-    }
-}
-
-
-.footer {
-	font-style: italic;
-}
-
-.img {
-    height: auto; 
-    width: auto; 
-    max-width: 100%; 
-}
-
-.col {
-    flex: 1;
-    padding: 20px;
-}
-
-.year {
-    font-weight: bold;
-}
-
-li {
-  margin-bottom: 10px;
-    line-height: 24pt;
-}
-
-ul {
-   margin-top: 0px;
+.author-list {
+  font-size: 12px;
 }
